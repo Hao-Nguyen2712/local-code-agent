@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LocalCodeAgent.Application/LocalCodeAgent.Application.csproj" Id="b55d02db-918a-44d8-a4e3-cf47f37fd6c4" />
+    <Project Path="src/LocalCodeAgent.Cli/LocalCodeAgent.Cli.csproj" Id="803eac69-1d88-4d0e-9f4f-9c7c49cd0921" />
+    <Project Path="src/LocalCodeAgent.Domain/LocalCodeAgent.Domain.csproj" />
+    <Project Path="src/LocalCodeAgent.Infrastructure/LocalCodeAgent.Infrastructure.csproj" Id="fc9061ff-7df6-434b-950d-05d232f03554" />
+    <Project Path="src/LocalCodeAgent.Tools/LocalCodeAgent.Tools.csproj" Id="251ad825-4e7f-4a71-82b9-9f5fb2b739c4" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/LocalCodeAgent.IntegrationTest/LocalCodeAgent.IntegrationTest.csproj" Id="7b74f5cd-0f0d-44e5-b6d8-757aedd75522" />
+    <Project Path="test/LocalCodeAgent.Tools/LocalCodeAgent.Tools.csproj" Id="ce414dfc-d434-45ad-94b2-10d85b31ce08" />
+  </Folder>
+</Solution>
