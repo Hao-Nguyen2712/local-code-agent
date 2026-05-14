@@ -6,8 +6,8 @@
     <Project Path="src/LocalCodeAgent.Infrastructure/LocalCodeAgent.Infrastructure.csproj" Id="fc9061ff-7df6-434b-950d-05d232f03554" />
     <Project Path="src/LocalCodeAgent.Tools/LocalCodeAgent.Tools.csproj" Id="251ad825-4e7f-4a71-82b9-9f5fb2b739c4" />
   </Folder>
-  <Folder Name="/test/">
-    <Project Path="test/LocalCodeAgent.IntegrationTest/LocalCodeAgent.IntegrationTest.csproj" Id="7b74f5cd-0f0d-44e5-b6d8-757aedd75522" />
-    <Project Path="test/LocalCodeAgent.Tools/LocalCodeAgent.Tools.csproj" Id="ce414dfc-d434-45ad-94b2-10d85b31ce08" />
+  <Folder Name="/tests/">
+    <Project Path="tests/LocalCodeAgent.IntegrationTest/LocalCodeAgent.IntegrationTest.csproj" Id="7b74f5cd-0f0d-44e5-b6d8-757aedd75522" />
+    <Project Path="tests/LocalCodeAgent.Tools.Tests/LocalCodeAgent.Tools.Tests.csproj" Id="ce414dfc-d434-45ad-94b2-10d85b31ce08" />
   </Folder>
 </Solution>
