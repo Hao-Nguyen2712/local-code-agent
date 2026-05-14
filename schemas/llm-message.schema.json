@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llm-message.schema.json",
+  "title": "LLM Message",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["role", "content"],
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": ["system", "user", "assistant", "tool"]
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

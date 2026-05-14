@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chat-request.schema.json",
+  "title": "Chat Request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model", "messages"],
+  "properties": {
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "llm-message.schema.json"
+      }
+    },
+    "temperature": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    },
+    "stream": {
+      "type": "boolean"
+    }
+  }
+}
