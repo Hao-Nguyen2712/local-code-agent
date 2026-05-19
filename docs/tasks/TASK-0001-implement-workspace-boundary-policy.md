@@ -1,5 +1,9 @@
 # TASK-0001: Implement Workspace Boundary Policy
 
+## Status
+
+Done
+
 ## Related Spec
 
 `specs/safety/workspace-boundary.spec.md`
@@ -27,6 +31,11 @@ Implement in `CodeAgent.Core`.
 - Normalize paths before validation.
 - Return machine-readable error codes.
 - Include unit tests for all acceptance criteria in the spec.
+
+## Evidence
+
+- Implementation: `src/LocalCodeAgent.Application/Safety/WorkspaceBoundaryPolicy.cs`
+- Tests: `tests/LocalCodeAgent.Application.Tests/Safety/WorkspaceBoundaryPolicyTests.cs`
 
 ## Out of Scope
 

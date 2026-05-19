@@ -62,3 +62,6 @@ nunit-*.xml
 *.user
 *.userosscache
 *.sln.docstates
+
+# VS code C# extension
+*.lscache
