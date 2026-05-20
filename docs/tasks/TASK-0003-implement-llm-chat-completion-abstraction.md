@@ -2,7 +2,7 @@
 
 ## Status
 
-Ready
+Done
 
 ## Related Spec
 
@@ -44,6 +44,12 @@ Application and domain contracts for chat completion.
 
 - `TASK-0001: Implement Workspace Boundary Policy` is done.
 - `TASK-0002: Define Tool Execution Request Model` is done.
+
+## Evidence
+
+- Domain contracts: `src/LocalCodeAgent.Domain/Llm/`
+- Application abstraction: `src/LocalCodeAgent.Application/Llm/ILlmClient.cs`
+- Tests: `tests/LocalCodeAgent.Application.Tests/Llm/LlmChatContractsTests.cs`
 
 ## Out of Scope
 
